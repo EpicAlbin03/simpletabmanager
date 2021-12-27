@@ -4,16 +4,12 @@ body {
   background-size: 100%;
 }
 
-/* all links */
+/* all <a> elements */
 a {
   text-decoration: none;
 }
 
-/* links hover-effect */
-a:hover {
-  text-decoration: underline;
-}
-
+/* colors */
 .pink {
     color: #FB3A7B;
 }
@@ -22,6 +18,7 @@ a:hover {
     color: #FDB153;
 }
 
+/* importing fonts */
 @font-face {
     font-family: BarlowCondensed-ExtraBoldItalic;
     src: url(./fonts/BarlowCondensed-ExtraBoldItalic.ttf);
@@ -32,7 +29,7 @@ a:hover {
   src: url(./fonts/BarlowCondensed-Regular.ttf);
 }
 
-
+/* container for logo and title */
 .container {
   display: flex;
   width: fit-content;
@@ -40,55 +37,48 @@ a:hover {
   padding-left: 20px;
 }
 
+/* title */
 .title {
   font-family: BarlowCondensed-ExtraBoldItalic;
-  text-shadow: 1px 1px #5D889D;
   font-size: 20px;
   margin-left: 10px;
 }
 
+/* text container */
 .container2 {
   width: fit-content;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
+/* all <p> elements */
 p {
   text-align: center;
   font-family: BarlowCondensed;
   color: white;
 }
 
+/* big text */
 .bigText {
   font-size: 100px;
 }
 
+/* small text */
 .smallText {
   font-size: 20px;
+  margin-top: 40px;
 }
-/*
-.bg {
-  background-color: #F8F9FA;
-  width: 1000px;
-  height: 100%;
+
+/* paypal donate button */
+#donate-button-container {
+  width: fit-content;
   margin: auto;
 }
 
-footer {
-  background-color: lightcyan;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  height: 50px;
+/* github icon */
+#github {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
 }
-
-ul {
-  
-}
-
-li {
-  display: inline;
-  padding-left: 10px;
-}
-*/
