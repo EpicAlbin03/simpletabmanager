@@ -82,3 +82,8 @@ p {
   margin-right: auto;
   margin-top: -60px;
 }
+
+#policy {
+  width: fit-content;
+  margin: auto;
+}
