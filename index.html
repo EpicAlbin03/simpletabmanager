@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-215861568-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-215861568-1");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Tab Manager</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="./images/icon-16x16.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- container for logo and title -->
+    <a href="#" class="container">
+      <!-- logo -->
+      <img src="./images/icon-32x32.png" alt="logo" />
+
+      <!-- title -->
+      <div class="title">
+        <span class="pink">SIMPLE</span>
+        <span class="orange">TAB MANAGER</span>
+      </div>
+    </a>
+
+    <!-- text container -->
+    <div class="container2">
+      <!-- Big text -->
+      <p class="bigText">
+        Thank you for using <br />
+        Simple Tab Manager!
+      </p>
+
+      <!-- github icon -->
+      <a href="https://github.com/EpicAlbin03/Simple-Tab-Manager.git" target="blank" id="github">
+        <img src="./images/github.png" alt="github icon" />
+      </a>
+
+      <!-- small text -->
+      <p class="smallText">
+        If you like the extension and have some money to spare it would help me to maintain and provide further updates for the extension. <br />
+        Any amount would go a long way, thank's for your support!
+      </p>
+
+      <!-- paypal donate button -->
+      <div id="donate-button-container">
+        <div id="donate-button"></div>
+        <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+        <script>
+          PayPal.Donation.Button({
+            env: "production",
+            hosted_button_id: "54UE7D93PS7EL",
+            image: {
+              src: "https://www.paypalobjects.com/en_US/SE/i/btn/btn_donateCC_LG.gif",
+              alt: "Donate with PayPal button",
+              title: "PayPal - The safer, easier way to pay online!",
+            },
+          }).render("#donate-button");
+        </script>
+      </div>
+      <a href="https://www.privacypolicygenerator.info/live.php?token=bQyvfrKEo8VI7ZwAEHmaEfQe08buGrOj" target="blank" id="policy"><p>Privacy Policy</p></a>
+    </div>
+  </body>
+</html>
