@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/simpletabmanager/static/js/main.b6ee0d44.chunk.js",
+    "main.js.map": "/simpletabmanager/static/js/main.b6ee0d44.chunk.js.map",
+    "runtime-main.js": "/simpletabmanager/static/js/runtime-main.9d34b7e7.js",
+    "runtime-main.js.map": "/simpletabmanager/static/js/runtime-main.9d34b7e7.js.map",
+    "static/js/2.3e2a6b9e.chunk.js": "/simpletabmanager/static/js/2.3e2a6b9e.chunk.js",
+    "static/js/2.3e2a6b9e.chunk.js.map": "/simpletabmanager/static/js/2.3e2a6b9e.chunk.js.map",
+    "index.html": "/simpletabmanager/index.html",
+    "precache-manifest.da41a7a1470fa41cfbd1213a6be7b3b9.js": "/simpletabmanager/precache-manifest.da41a7a1470fa41cfbd1213a6be7b3b9.js",
+    "service-worker.js": "/simpletabmanager/service-worker.js",
+    "static/js/2.3e2a6b9e.chunk.js.LICENSE.txt": "/simpletabmanager/static/js/2.3e2a6b9e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d34b7e7.js",
+    "static/js/2.3e2a6b9e.chunk.js",
+    "static/js/main.b6ee0d44.chunk.js"
+  ]
+}
