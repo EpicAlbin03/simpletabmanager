@@ -1,6 +1,6 @@
 {
-  "homepage": "https://epicalbin03.github.io/simpletabmanager",
-  "name": "test",
+  "homepage": "https://epicalbin03.github.io/simpletabmanager/",
+  "name": "simpletabmanager",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
