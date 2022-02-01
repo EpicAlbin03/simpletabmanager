@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/simpletabmanager/precache-manifest.1a4822542ec2086a6138cdb740dfc68b.js"
+  "/simpletabmanager/precache-manifest.c48e6fc7729f3f36085ef63bc9764916.js"
 );
 
 self.addEventListener('message', (event) => {
